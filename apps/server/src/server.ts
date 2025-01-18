@@ -19,7 +19,7 @@ app.use(express.json());
 connectDB();
 
 //Routes
-app.use('/api/kanban',kanbanRoutes);
+app.use('/api/boards',kanbanRoutes);
 
 app.listen(PORT,()=>{
     console.log('Server started on port',PORT);
